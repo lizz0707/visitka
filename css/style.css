@@ -1,0 +1,359 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Anonymus-bold;
+  src: url(../fonts/AnonymousPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: EBGramond-bold;
+  src: url(../fonts/EBGaramond-Bold.ttf);
+}
+
+@font-face {
+  font-family: Anonymus-regular;
+  src: url(../fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+  background-color: #ffe7f7;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  background-color: #ffe7f7;
+}
+
+.strok {
+  width: 100%;
+  height: 95px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_photo {
+  width: 90px;
+      margin: 0 6% 0 2%;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Anonymus-bold;
+  /* margin-left: 45px; */
+}
+
+.nav_ul {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.nav__ul_li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #c5267b;
+  font-size: 25px;
+}
+
+.photo_we {
+  width: 52px;
+  height: 52px;
+  margin-right: 45px;
+}
+
+.welcome {
+  height: 810px;
+  display: flex;
+}
+
+.welkome__h {
+  position: relative;
+  font-size: 70px;
+  top: 150px;
+  left: 40px;
+  color: #c5267b;
+}
+
+.glava {
+  position: relative;
+  top: -5%;
+  margin-top: 0px;
+}
+
+.blok1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.patrik {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  text-decoration-line: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 4px;
+  color: #c5267b;
+  font-size: 70px;
+  margin-top: 60px;
+}
+
+.patrakova_img {
+  width: 660px;
+  height: 632px;
+}
+
+.patrakova_text {
+  font-family: Anonymus-regular;
+  font-size: 33px;
+  width: 550px;
+  padding: 20px 0;
+  line-height: 120%;
+}
+
+.text__name {
+  font-family: Anonymus-bold;
+  color: #c5267b;
+}
+
+.site_name {
+  font-family: Anonymus-bold;
+  color: #c5267b;
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+.proect__text {
+  font-family: Anonymus-regular;
+  font-size: 30px;
+  margin: 30px 0;
+  line-height: 120%;
+}
+
+.proect__photo {
+  width: 1080px;
+  height: 555px;
+  align-items: center;
+}
+
+.photo_pro {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #ffbcea;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 60px;
+}
+
+.container_footer {
+  width: 1180px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.con_adres {
+  display: flex;
+}
+
+.contact {
+  padding: 0 40px;
+}
+
+.contact_info {
+  margin: 15px 0 0 0;
+}
+
+.contact__text {
+  font-family: Anonymus-regular;
+  color: #c5267b;
+  font-size: 30px;
+  text-decoration-line: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 2px;
+  margin-bottom: 20px;
+}
+
+.num {
+  font-family: Anonymus-regular;
+  font-size: 18px;
+}
+
+.logo_name {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 40px;
+}
+
+.logo {
+  font-family: Anonymus-regular;
+  color: #c5267b;
+  font-size: 24px;
+  text-decoration-line: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 2px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .strok {
+    height: auto;
+    width: auto;
+    padding: 10px;
+  }
+
+  .logo_photo {
+    width: 30%;
+    margin: 10px auto;
+  }
+
+  .nav_ul {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav__ul_li {
+    margin: 5px 0;
+  }
+
+  .nav__ul_li a {
+    font-size: 18px;
+  }
+
+  .photo_we {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+  }
+
+  .welcome {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .welkome__h {
+    font-size: 30px;
+    position: static;
+    margin: 20px auto;
+  }
+
+  .glava {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .patrik {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .patrakova_text{
+    width: 90%;
+    font-size: 26px;
+  }
+
+  .patrakova_img, .kalmykova_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .liz{
+    flex-direction: column-reverse;
+  }
+
+  .site_name{
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .proect_con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proect_con1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .web_info{
+    font-size: 26px;
+  }
+
+  .info {
+    font-size: 30px;
+  }
+
+  .proect__photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .con_adres {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .contact {
+    padding: 10px;
+  }
+
+  .contact__text {
+    font-size: 20px;
+  }
+
+  .num {
+    font-size: 16px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .footer{
+    height: auto;
+  }
+
+  .container_footer{
+    width: 95%;
+    gap: 20px;
+  }
+
+
+}
